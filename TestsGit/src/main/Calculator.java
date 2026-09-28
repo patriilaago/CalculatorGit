@@ -18,7 +18,8 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("==== BASIC CALCULATOR ====");
+    	System.out.println("--- HELLO WORLD ---");
+    	System.out.println("==== BASIC CALCULATOR ====");
         System.out.println("Addition: " + sum(10, 5));
         System.out.println("Subtraction: " + subtract(10, 5));
         System.out.println("Division: " + divide(10, 5));
