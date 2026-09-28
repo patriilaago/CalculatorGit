@@ -16,6 +16,10 @@ public class Calculator {
         }
         return a / b;
     }
+	
+	public static double module(double a, double b) {
+	    return a % b;
+	}
 
     public static void main(String[] args) {
     	System.out.println("--- HELLO WORLD ---");
@@ -23,5 +27,6 @@ public class Calculator {
         System.out.println("Addition: " + sum(10, 5));
         System.out.println("Subtraction: " + subtract(10, 5));
         System.out.println("Division: " + divide(10, 5));
+        System.out.println("Module: " + module(10, 5));
     }
 }
