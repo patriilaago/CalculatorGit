@@ -15,5 +15,5 @@ public class Calculator {
         System.out.println("Addition: " + sum(10, 5));
         System.out.println("Subtraction: " + subtract(10, 5));
     }
-	
+    
 }
